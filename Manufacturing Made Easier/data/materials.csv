@@ -1,0 +1,90 @@
+name,density_g_cm3,yield_strength_MPa,cost_usd_per_kg,corrosion_rating,success_score
+ABS Polymer,1.05,45,2.1,3.2,62
+Nylon 6,1.15,60,3.2,3,65
+PLA Bioplastic,1.24,50,2.4,2.8,58
+Polycarbonate,1.2,65,3.9,3.3,68
+PET,1.38,55,2,3.1,61
+HDPE,0.95,32,1.8,3.4,55
+LDPE,0.92,28,1.6,3.5,52
+POM Acetal,1.41,70,4.1,3.5,70
+PP Polymer,0.9,35,1.5,3.2,54
+Epoxy Resin,1.17,65,5,3,66
+Aluminum 6061,2.7,275,3.5,3.8,80
+Aluminum 7075,2.81,505,5.2,3.5,88
+Aluminum 2024,2.78,470,4.8,3.3,85
+Aluminum 5083,2.66,290,3.2,4,82
+Aluminum 3003,2.73,110,2.4,4.2,71
+Stainless 304,7.9,215,1.9,4.8,83
+Stainless 316,7.98,290,2.5,4.9,88
+Carbon Steel A36,7.85,250,0.9,3.6,72
+Carbon Steel 1045,7.87,505,1.3,3.5,78
+Carbon Steel 1095,7.88,600,1.7,3.4,80
+Tool Steel D2,7.7,700,2.3,3.2,83
+Tool Steel O1,7.65,660,2,3.1,81
+Titanium Grade 5,4.43,900,29,4.7,93
+Titanium Grade 2,4.51,380,22,4.4,86
+Titanium Beta C,4.48,1100,45,4.2,95
+Magnesium AZ31,1.74,245,6.5,2.8,68
+Magnesium AZ61,1.8,260,7.2,2.8,70
+Carbon Fiber (Std),1.55,800,32,4.5,90
+Carbon Fiber (Hi-Mod),1.6,1100,55,4.6,95
+Glass Fiber Composite,1.95,550,9,4.2,82
+Kevlar Composite,1.44,350,25,4,87
+Inconel 718,8.19,1030,45,4.9,97
+Inconel 625,8.44,930,42,4.7,94
+Copper C110,8.96,70,9,2.5,63
+Copper Alloy C260,8.53,110,8,2.7,66
+Brass 360,8.49,120,5.5,3.2,68
+Bronze C93200,8.8,250,6.2,3.4,72
+Zinc Alloy Zamak3,6.6,280,3.2,3.3,74
+Zamak5,6.7,310,3.5,3.2,76
+Lead Alloy,11.35,18,2.2,1.5,40
+Tin Alloy,7.3,25,7.2,2.2,48
+Nickel Alloy 200,8.89,275,25,4.3,85
+Nickel Alloy 400,8.8,480,28,4.5,90
+PEEK Polymer,1.32,140,60,4.8,92
+UHMWPE,0.94,30,3.4,3.3,58
+PMMA Acrylic,1.19,70,2.7,3.2,60
+PVC Rigid,1.38,55,1.8,3.3,57
+Silicone Rubber,1.15,8,4,4,50
+Nitrile Rubber,1.2,12,3.2,3.2,52
+Butyl Rubber,1.15,9,3.5,3.1,51
+Cast Iron,7.1,300,0.8,3.2,70
+Ductile Iron,7.2,420,1,3.4,74
+Maraging Steel,8,2000,20,4.4,97
+High Mn Steel,7.8,900,2.1,3.8,85
+AISI 4130,7.85,560,1.7,3.9,82
+AISI 4140,7.83,655,2,3.8,84
+AISI 4340,7.85,1080,2.2,3.7,90
+Bronze Bearing Alloy,8.8,180,7.4,3.5,68
+Phosphor Bronze,8.78,390,8.2,3.4,74
+Delrin AF,1.42,90,6.2,3.4,72
+Fiberglass Laminate,1.92,420,11,4.2,79
+Carbon Foam,0.6,25,15,2,55
+Acrylic Composite,1.4,120,8,3.6,75
+ABS-Carbon Blend,1.18,95,5,3.5,78
+Polyimide,1.43,160,65,4.7,93
+Silica Ceramic,2.4,350,12,4.6,88
+Alumina Ceramic,3.9,300,14,4.8,89
+Zirconia Ceramic,6.05,900,18,4.9,95
+Boron Carbide,2.52,1000,33,4.7,93
+Silicon Carbide,3.21,450,28,4.5,90
+Tungsten Carbide,14.8,1400,35,4.9,96
+Titanium Aluminide,4.02,750,38,4.4,92
+Magnesium Composite,1.6,420,15,3.2,78
+Basalt Fiber Composite,1.9,650,12,4.1,82
+Resin Transfer Molded CF,1.57,950,40,4.6,92
+Al-Li Alloy,2.55,520,9,4,88
+Nickel Superalloy 740H,8.3,1150,48,4.8,97
+Copper Graphite,5.1,85,14,3.3,67
+Brass High-Strength,8.5,280,6,3.2,71
+PLA-CF Blend,1.25,95,12,3.2,74
+Acrylic-Laminate,1.46,130,9.5,3.5,77
+ABS-GF Blend,1.3,110,4.8,3.4,73
+HDPE-GF,1.05,95,3.8,3.4,70
+PP-GF,1.1,82,3.5,3.3,69
+Phenolic Resin,1.28,105,6.8,3.2,71
+Polyurethane Resin,1.2,65,4.5,3.4,64
+Rubber-EPDM,1.18,10,3.4,3.2,51
+Silica Aerogel,0.15,5,22,3.9,45
+Beryllium Copper,8.25,450,55,4.1,89

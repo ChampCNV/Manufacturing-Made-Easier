@@ -1,0 +1,29 @@
+                                                       
+========================================
+        COST BREAKDOWN REPORT
+========================================
+
+PROCESS SELECTED:  Sand_Casting
+MATERIAL SELECTED: Carbon Fiber (Hi-Mod)
+QUANTITY:          2 parts
+
+========================================
+        MATERIAL COST ANALYSIS
+========================================
+- Unit Material Cost:       $2.99 per kg
+- Part Mass:                0.054 kg
+- Material Required:        0.109 kg
+- Material Subtotal:        $5.98
+
+========================================
+        PROCESS COST ANALYSIS
+========================================
+- Process Cost per Part:    $7.00 per part
+- Processing Subtotal:      $14.00
+
+========================================
+              TOTAL COST
+========================================
+- TOTAL COST:               $19.98
+========================================
+    
