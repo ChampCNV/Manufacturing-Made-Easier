@@ -1,82 +1,74 @@
-Manufacturing Made Easier
+# Manufacturing Made Easier
 
-Manufacturing Made Easier is a Python-based decision-support tool for manufacturing planning.
-Given part constraints and specifications, the system recommends an optimal material, manufacturing process, and estimated production cost.
+**Manufacturing Made Easier** is a Python-based **decision-support tool for manufacturing planning**.  
+Given part constraints and specifications, the system recommends an **optimal material, manufacturing process, and estimated production cost**.
 
-The project combines machine learning models, engineering constraints, and cost analysis to guide early-stage design decisions.
+The project combines **machine learning models, engineering constraints, and cost analysis** to guide early-stage design decisions.
 
-Overview
+---
 
-The system operates through a three-stage pipeline:
+## Overview
 
-Material Recommendation
-Uses a Decision Tree Regressor trained on material property data to rank viable materials based on strength, density, and cost constraints.
+The system operates through a **three-stage pipeline**:
 
-Manufacturing Process Prediction
-A Random Forest classifier (150 trees) predicts the most suitable manufacturing process from part geometry and material properties.
+### 1. Material Recommendation
+Uses a **Decision Tree Regressor** trained on material property data to rank viable materials based on strength, density, and cost constraints.
 
-Cost Estimation
-Calculates material cost, processing cost, and total production cost for the desired quantity.
+### 2. Manufacturing Process Prediction
+A **Random Forest classifier (150 trees)** predicts the most suitable manufacturing process from part geometry and material properties.
 
-The result is a data-driven workflow from design requirements → manufacturable solution.
+### 3. Cost Estimation
+Calculates **material cost, processing cost, and total production cost** for the desired quantity.
 
-Tech Stack
+The result is a **data-driven workflow from design requirements → manufacturable solution**.
 
-Languages & Libraries
+---
 
-Python
+## Tech Stack
 
-Pandas
+**Languages & Libraries**
 
-Scikit-learn
+- Python  
+- Pandas  
+- Scikit-learn  
+- Matplotlib  
 
-Matplotlib
+**Machine Learning**
 
-Machine Learning
+- Decision Tree Regression (material recommendation)  
+- Random Forest Classification (process prediction)
 
-Decision Tree Regression (material recommendation)
+**Engineering & Data Concepts**
 
-Random Forest Classification (process prediction)
+- Feature engineering from material properties
+- Constraint filtering and relaxation
+- Model evaluation (R², MAE, classification accuracy)
+- Probability visualization of model predictions
+- Modular pipeline architecture
 
-Engineering & Data Concepts
+---
 
-Feature engineering from material properties
-
-Constraint filtering and relaxation
-
-Model evaluation (R², MAE, classification accuracy)
-
-Probability visualization of model predictions
-
-Modular pipeline architecture
-
-Example Workflow
+## Example Workflow
 
 User inputs:
 
-Minimum yield strength
-
-Maximum density
-
-Maximum material cost
-
-Part volume
-
-Surface area
-
-Tolerance
-
-Production quantity
+- Minimum yield strength  
+- Maximum density  
+- Maximum material cost  
+- Part volume  
+- Surface area  
+- Tolerance  
+- Production quantity  
 
 The system then:
 
-Filters and ranks feasible materials
+1. Filters and ranks feasible materials
+2. Predicts the best manufacturing process
+3. Generates a cost breakdown and process probability visualization
 
-Predicts the best manufacturing process
+---
 
-Generates a cost breakdown and process probability visualization
-
-Project Structure
+## Project Structure
 Manufacturing-Made-Easier/
 │
 ├── main.py                # main pipeline
@@ -91,31 +83,36 @@ Manufacturing-Made-Easier/
 └── output/
     ├── process_probabilities.png
     └── cost_breakdown_report.txt
-Running the Project
+
+---
+
+## Running the Project
 
 Clone the repository:
-
 git clone https://github.com/ChampCNV/Manufacturing-Made-Easier.git
 cd Manufacturing-Made-Easier
 
 Install dependencies:
-
 pip install pandas scikit-learn matplotlib
 
 Run the program:
-
 python main.py
 
 Follow the CLI prompts to enter part specifications.
 
-Potential Extensions
+## Potential Extensions
 
-CAD file integration for automated geometry extraction
+- **CAD File Integration**  
+  Automatically extract geometry (volume, surface area, features) directly from CAD models.
 
-Expanded manufacturing datasets
+- **Expanded Manufacturing Dataset**  
+  Improve model accuracy with larger real-world manufacturing process data.
 
-Process time estimation
+- **Process Time Estimation**  
+  Estimate machining or fabrication time alongside cost predictions.
 
-Web-based interface (Streamlit/Flask)
+- **Web-Based Interface**  
+  Build a user-friendly frontend using tools like **Streamlit** or **Flask**.
 
-Optimization-based manufacturing selection
+- **Optimization-Based Process Selection**  
+  Integrate optimization algorithms to select manufacturing methods based on cost, speed, and performance trade-offs.
